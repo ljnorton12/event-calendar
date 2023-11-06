@@ -1,0 +1,64 @@
+/* class event box, subclasses past present future (background color)
+title class save button class */
+/* 
+.row {
+    //stuff
+}
+.save {
+    //stuff
+}
+.event {
+    //stuff
+}
+.label {
+    //stuff
+} */
+.event-calendar {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.event-calendar th,
+.event-calendar td {
+border: 1px solid #ddd;
+padding: 8px;
+text-align: left;
+}
+
+.event-calendar th {
+background-color: #f2f2f2;
+}
+
+.save-btn {
+display: none;
+}
+
+.input-hidden {
+display: none;
+}
+
+/*boxes, page layout, switch to an input on click for the box element 
+
+
+handle display 
+
+if index > current_hour_i:
+green
+
+if index < current_hour_i:
+gray 
+
+if index = current_hour_i:
+red 
+(just the event box part)
+
+
+
+row: index = index for event in length events, has time label, event box, save button. 
+if save button clicked, access index 
+
+save: on click: update the event string with the current string text (persist) and set saved = true
+
+if event clicked, change event part of the box to an input with the current text as initial text in the input 
+
+event label class has an onclick that replaces it with an event input element */

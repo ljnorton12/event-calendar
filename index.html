@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Event Calendar</title>
+</head>
+<body>
+
+<table class="event-calendar">
+  <tr>
+    <th>Time</th>
+    <th>Event</th>
+    <th>Actions</th>
+  </tr>
+  <tr>
+    <td>5 AM</td>
+    <td>
+      <label id="eventLabel5AM" onclick="convertToInput('eventLabel5AM', 'eventInput5AM', 'saveBtn5AM')">Event Text from CSV</label>
+      <input type="hidden" id="eventInput5AM" class="input-hidden">
+    </td>
+    <td>
+      <button id="saveBtn5AM" class="save-btn" onclick="saveEvent('eventLabel5AM', 'eventInput5AM', 'saveBtn5AM')">Save</button>
+    </td>
+  </tr>
+
+
+</table>
+
+</body>
+</html>
