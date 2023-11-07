@@ -30,5 +30,7 @@ THEN the saved events persist
 Code was worked on with the guidance of my peer/roomate Ally Rose.
 
 
+
 Link to My Github:  https://github.com/ljnorton12/event-calendar
+
 Link to My Page: https://ljnorton12.github.io/event-calendar/
